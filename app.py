@@ -33,9 +33,7 @@ mode = st.sidebar.selectbox("Select Mode", [
 angle_mode = st.sidebar.radio("Angle Mode", ["Degree", "Radian"])
 
 
-# ──────────────────────────────────────────────
-# Basic UI  (number-pad fixed)
-# ──────────────────────────────────────────────
+
 if mode == "Basic UI":
 
     # Read-only display driven entirely by session_state
