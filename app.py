@@ -62,7 +62,7 @@ if mode == "Basic UI":
                         st.session_state.result_error = True
                 else:
                     st.session_state.display += button
-                    # Clear previous result when new input starts
+   
                     st.session_state.result = None
                 st.rerun()
 
